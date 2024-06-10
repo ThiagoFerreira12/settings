@@ -1,0 +1,149 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "cSpell.allowCompoundWords": true,
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.dictionaries": [
+    "typescript, javascript"
+  ],
+  "cSpell.enableFiletypes": [
+    "dotenv",
+    "jsx-tags",
+    "tsx-tags"
+  ],
+  "cSpell.ignorePaths": [
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    ".vscode",
+    ".vscode-insiders"
+  ],
+  "cSpell.language": "en, pt-BR, pt",
+  "cSpell.suggestionMenuType": "quickPick",
+  "cSpell.userWords": [
+    "dtos",
+    "qrcode"
+  ],
+  "codesnap.backgroundColor": "#7159c1",
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.codeLens": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 500,
+  "editor.fontSize": 12,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 1.8,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.stickyScroll.enabled": true,
+  "editor.tabSize": 2,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "emmet.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescript",
+    "typescriptreact": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "js",
+    "javascriptreact": "jsx",
+    "typescript": "ts",
+    "typescriptreact": "tsx"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoUpdate": true,
+  "extensions.ignoreRecommendations": true,
+  "git.autofetch": true,
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "search.searchOnType": false,
+  "workbench.activityBar.location": "hidden",
+  "settingsSync.ignoredSettings": [
+    "telemetry.telemetryLevel"
+  ],
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "welcomePage",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "˜": true
+  },
+  "sonarlint.rules": {
+    "typescript:S6480": {
+      "level": "off"
+    },
+    "typescript:S6478": {
+      "level": "off"
+    }
+  },
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "jest.coverageFormatter": "GutterFormatter",
+  "jest.monitorLongRun": 120000,
+  "totalTypeScript.hiddenTips": [
+    "passing-generics-to-types",
+    "typeof",
+    "partial-utility-type",
+    "in-operator-narrowing",
+    "readonly-utility-type",
+    "keyof",
+    "mapped-type",
+    "tuple-type",
+    "non-null-expression"
+  ],
+  "workbench.editor.splitSizing": "auto",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": true
+  },
+  "editor.formatOnPaste": true,
+  "window.commandCenter": false,
+  "workbench.statusBar.visible": false,
+  "sonarlint.pathToNodeExecutable": "/Users/thiagoalencar/.nvm/versions/node/v18.19.1/bin/node",
+  "editor.fontFamily": "Fira Code",
+  "security.workspace.trust.untrustedFiles": "open",
+  "jest.runMode": {
+    "type": "on-save",
+    "testFileOnly": true,
+    "coverage": true
+  },
+  "console-ninja.featureSet": "Community",
+  "symbols.hidesExplorerArrows": false,
+  "git.openRepositoryInParentFolders": "always",
+  "terminal.integrated.env.linux": {},
+  "workbench.colorTheme": "Vesper ++",
+  "workbench.editor.alwaysShowEditorActions": true
+}
