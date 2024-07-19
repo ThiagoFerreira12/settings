@@ -1,23 +1,4 @@
 {
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true
-  },
   "cSpell.allowCompoundWords": true,
   "cSpell.diagnosticLevel": "Hint",
   "cSpell.dictionaries": [
@@ -49,16 +30,21 @@
     "source.fixAll.eslint": "explicit"
   },
   "editor.codeLens": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "breadcrumbs.enabled": false,
   "editor.cursorBlinking": "smooth",
   "editor.fontLigatures": true,
   "editor.fontWeight": 500,
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
   "editor.formatOnSave": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": "active",
   "editor.guides.highlightActiveIndentation": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.lineHeight": 1.8,
+  "editor.lineHeight": 1.6,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.parameterHints.enabled": false,
@@ -87,7 +73,7 @@
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "search.searchOnType": false,
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "bottom",
   "settingsSync.ignoredSettings": [
     "telemetry.telemetryLevel"
   ],
@@ -96,9 +82,6 @@
   "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "welcomePage",
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
   "editor.unicodeHighlight.allowedCharacters": {
     "˜": true
   },
@@ -133,7 +116,7 @@
   "window.commandCenter": false,
   "workbench.statusBar.visible": false,
   "sonarlint.pathToNodeExecutable": "/Users/thiagoalencar/.nvm/versions/node/v18.19.1/bin/node",
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "security.workspace.trust.untrustedFiles": "open",
   "jest.runMode": {
     "type": "on-save",
@@ -144,6 +127,27 @@
   "symbols.hidesExplorerArrows": false,
   "git.openRepositoryInParentFolders": "always",
   "terminal.integrated.env.linux": {},
-  "workbench.colorTheme": "Vesper ++",
-  "workbench.editor.alwaysShowEditorActions": true
+  "workbench.colorTheme": "Dracula Pro (Van Helsing)",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.layoutControl.enabled": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.env.osx": {},
 }
