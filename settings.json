@@ -127,7 +127,7 @@
   "symbols.hidesExplorerArrows": false,
   "git.openRepositoryInParentFolders": "always",
   "terminal.integrated.env.linux": {},
-  "workbench.colorTheme": "Dracula Pro (Van Helsing)",
+  "workbench.colorTheme": "Dracula Pro",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.layoutControl.enabled": false,
   "[javascript]": {
@@ -150,4 +150,20 @@
     "editor.formatOnSave": true
   },
   "terminal.integrated.env.osx": {},
+  "window.titleBarStyle": "native",
+  "apc.font.family": "JetBrains Mono",
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.electron": {
+    "frame": false,
+    "titleBarStyle": "hiddenInset"
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none"
+  },
+  "explorer.fileNesting.enabled": true
 }
